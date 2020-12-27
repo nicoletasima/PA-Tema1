@@ -1,8 +1,9 @@
 		README TEMA 1 PROIECTAREA ALGORITMILOR
 		Sima Nicoleta-Lavinia
 
+	
 	PROBLEMA 1:
-	Primul set de instructiuni: Pentru fiecare bancnota pusa la dispozitie
+Primul set de instructiuni: Pentru fiecare bancnota pusa la dispozitie
 exista alte 2 bancnote care pot urma dupa si deoarece sunt 5 bancnote care pot fi
 utilizate, am ajuns la concluzia ca problema se poate rezolva folosind formula
 5 * (2 ^ N), unde N reprezinta numarul de bancnote pe care Gigel trebuie sa le 
@@ -36,7 +37,7 @@ de pe pozitia N din fiecare vector, se obtine rezultatul.
 Complexitatea obtinuta este: O(n).
 
 	PROBLEMA 2:
-	Problema 2 este e problema de tip Greedy si prin urmare am ales
+Problema 2 este e problema de tip Greedy si prin urmare am ales
 sa adaug perechile de coordonate ale bucatilor de gard intr-un vector
 de structuri. Am ordonat vectorul crescator in functie de coordonata xStart,
 iar daca acestea erau egale pentru cele 2 elemente ordonate, am ordonat
@@ -52,7 +53,7 @@ Complexitatea obtinuta: O(N), unde N reprezinta numarul elemente
 din vectorul in care retin coordonatele.
 
 	PROBLEMA 3:
-	Pentru problema 3 am considerat o rezolvare prin metoda
+Pentru problema 3 am considerat o rezolvare prin metoda
 programare dinamica. Am adaugat intr-un vector capetele intervalelor in care
 se regasesc problemele rezolvate de catre cei N elevi. Cazul de baza este 
 pentru un singur elev, caz in care cele M bomboane pot fi impartite
